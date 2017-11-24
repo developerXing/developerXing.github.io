@@ -20,12 +20,12 @@ sidebar-avatar: /img/44.jpg.600x600.auto.jpg      # use absolute URL, seeing it'
 RSS: false
   
   
-# weibo_username:     
-zhihu_username:    123
+weibo_username:    # 
+zhihu_username:    #
 github_username:    developerXing
-facebook_username:  123
-jianshu_username:  123
-#twitter_username:   123
+facebook_username:  #
+jianshu_username:  #
+twitter_username:   #
 
 
 
