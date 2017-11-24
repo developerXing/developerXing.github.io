@@ -1,10 +1,10 @@
 # Site settings
-title: Xing
-SEOTitle: 张家兴的博客 | developerXing's Blog
+title: Corliss
+SEOTitle: 张家兴的博客 | Corliss's Blog
 header-img: img/post-bg-desk.jpg
 email: developerXing@163.com
 description: "Every failure is leading towards success."
-keyword: "developerxing, developerXing, developerXing's Blog, 张家兴的博客, zhangjiaxing, 张家兴, Java, 大数据"
+keyword: "developerxing, developerXing, developerXing's Blog, 张家兴的博客, zhangjiaxing, 张家兴, Java, 大数据,Corliss"
 url: "http://developerXing.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/developerXing/developerXing.github.io" # you code repository
@@ -82,7 +82,7 @@ ga_domain: auto
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 
