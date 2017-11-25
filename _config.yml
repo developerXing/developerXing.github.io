@@ -95,9 +95,6 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Corliss",
-        href: "#"
-    },{
         title: "github",
         href: "https://github.com/developerXing"
     },{
