@@ -221,10 +221,3 @@ Mode为follower表示是跟随者（从）
 
 由此我们得出结论，当领导者产生后，再次有新服务器加入集群，不会影响到现任领导者。
 
-#### 2.3 Dubbox连接zookeeper集群
-
-修改服务提供者和服务调用者的spring 配置文件
-<!-- 指定注册中心地址 -->
-	<dubbo:registry
-	protocol="zookeeper" address="192.168.25.140:2181,192.168.25.140:2182,192.168.25.140:2183">
-	</dubbo:registry>
