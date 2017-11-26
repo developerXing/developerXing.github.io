@@ -13,72 +13,7 @@ layout: default
 		<link rel="stylesheet" type="text/css" href="css/timeline.css" />
 		<script src="js/modernizr.custom.js"></script>
 	</head>
-	
-	<!-- 鼠标特效 -->
-		<style type="text/css">
-		.spanstyle {
-		position:absolute;
-		visibility:visible;
-		top:-50px;
-		font-size:9pt;
-		color: #000000;
-		font-weight:bold;
-		}</style>
-		<script>
-		var x,y
-		var step=20
-		var flag=0
-		var message="javascript源码大全。"
-		message=message.split("")
-		var xpos=new Array()
-		for (i=0;i<=message.length-1;i++) {
-		xpos[i]=-50}
-		var ypos=new Array()
-		for (i=0;i<=message.length-1;i++) {
-		ypos[i]=-50}
-		function handlerMM(e){
-		x = (document.layers) ? e.pageX : document.body.scrollLeft+event.clientX
-		y = (document.layers) ? e.pageY : document.body.scrollTop+event.clientY
-		flag=1}
-		function makesnake() {
-		if (flag==1 && document.all) {
-		for (i=message.length-1; i>=1; i--) {
-		xpos[i]=xpos[i-1]+step
-		ypos[i]=ypos[i-1] }
-		xpos[0]=x+step
-		ypos[0]=y
-		for (i=0; i<message.length-1; i++) {
-		var thisspan = eval("span"+(i)+".style")
-		thisspan.posLeft=xpos[i]
-		thisspan.posTop=ypos[i] } }
-		else if (flag==1 && document.layers) {
-		for (i=message.length-1; i>=1; i--) {
-		xpos[i]=xpos[i-1]+step
-		ypos[i]=ypos[i-1] }
-		xpos[0]=x+step
-		ypos[0]=y
-		for (i=0; i<message.length-1; i++) {
-		var thisspan = eval("document.span"+i)
-		thisspan.left=xpos[i]
-		thisspan.top=ypos[i]} }
-		var timer=setTimeout("makesnake()",30)}
-		</script>
-		
-		<body onLoad="makesnake()" >
-		
-		
-		<script>
-		for (i=0;i<=message.length-1;i++) {
-		document.write("<span id='span"+i+"'class='spanstyle'>")
-		document.write(message[i])
-		document.write("</span>")}
-		if (document.layers){
-		document.captureEvents(Event.MOUSEMOVE);}
-		document.onmousemove = handlerMM;
-		</script> 
-	
-	
-	
+	<body>
 		<div class="container" style="margin:0;padding:0;width:100%;">
 			<header>
 				<img width="190" height="190" src="images/hux_avatar.png">
