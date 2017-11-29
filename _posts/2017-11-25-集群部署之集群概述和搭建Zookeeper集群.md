@@ -9,6 +9,7 @@ catalog: true
 tags:
     - 集群
     - zookeeper
+    - 初级
     
 ---
 
